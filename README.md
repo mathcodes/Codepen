@@ -19,3 +19,7 @@
 ## [3D One Up Typo](https://codepen.io/mathcodes/pen/poproER)
 
 <img src="https://raw.githubusercontent.com/mathcodes/Codepen/main/images/3DOneUpTypo.png" width="50%">
+
+## [Tick Tock](https://codepen.io/mathcodes/pen/oNdVOod)
+
+<img src="https://raw.githubusercontent.com/mathcodes/Codepen/main/images/3DOneUpTypo.png" width="50%">
