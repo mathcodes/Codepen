@@ -22,4 +22,4 @@
 
 ## [Tick Tock](https://codepen.io/mathcodes/pen/oNdVOod)
 
-<img src="https://raw.githubusercontent.com/mathcodes/Codepen/main/images/3DOneUpTypo.png" width="50%">
+<img src="https://raw.githubusercontent.com/mathcodes/Codepen/main/images/tickTock.png" width="50%">
