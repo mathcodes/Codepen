@@ -1,8 +1,8 @@
 html {
   font-size: 10px;
-  background: url(background.jpg)
-    bottom center;
-  background-size: cover;
+  background: -webkit-linear-gradient(to top, #1a284f 0%, #2b1b37 100%);
+  background: -moz-gradient(to top, #1a284f 0%, #2b1b37 100%);
+  background: linear-gradient(to top, #1a284f 0%, #2b1b37 100%);
 }
 
 body,
@@ -12,10 +12,24 @@ html {
   font-family: sans-serif;
 }
 
+h1{
+  color:white;
+  text-align:center;
+}
+
+.container {
+  margin: 0 10%;
+  padding: 0 2rem;
+ 
+}
+
+.boxWrapper{
+  border-radius: 10px;
+}
+
 .keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
+  flex-flow: row wrap;
+  flex: 8; 
   align-items: center;
   justify-content: center;
 }
@@ -23,31 +37,76 @@ html {
 .key {
   border: 0.4rem solid black;
   border-radius: 0.5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem 0.5rem;
-  transition: all 0.07s ease;
-  width: 10rem;
+  margin: .5rem;
+  font-size: .2rem;
+  padding: 1rem 0.1rem;
+  transition: all .1s ease;
+  width: 6rem;
+  height: 5rem;
+  border-radius: 20%;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.4);
-  text-shadow: 0 0 0.5rem black;
+  background: rgba(0, 0, 0, 0.4); 
 }
+
+
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #841584;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0 0 5rem black;
+  /* margin: .4rem; */
 }
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.bs{
+  font-size: 1.8rem;
+  margin-bottom: .5rem;
+}
+.sound {
+  font-size: 1rem;
+ 
+  text-transform: uppercase; 
+ 
 }
 
-.sound {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  color: #ffc600;
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vDivider{
+  width:5px;
+  height:50px;
+  background-color: #841584;
+  margin: 0 1rem;
+}
+
+.hDivider{
+  height:25px;
+  background-color: #333;
+  background: -webkit-linear-gradient(to top, #555 0%,#111 50%, #555 100%);
+  background: -moz-gradient(to top, #555 0%,#111 50%, #555 100%);
+  background: linear-gradient(to top, #555 0%,#111 50%, #555 100%);
+}
+
+.box1{
+background-color: #841fff;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.box2{
+background-color: #84100f;
+}
+.box3{
+background-color: #8fff0f;
+color:black;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
 }
