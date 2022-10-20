@@ -11,33 +11,43 @@
 </head>
 
 <body>
+  <div class="container">
 <header>
   <h1>Javascript Soundboard </h1>
 </header>
-  <div class="keys box">
+<div class="boxWrapper">
+  <div class="keys box box1">
     <div data-key="8" class="key"><kbd class="bs">⌫</kbd><span class="sound">4</span></div>
     <div data-key="9" class="key"><kbd>Tab</kbd><span class="sound">5</span></div>
     <div data-key="13" class="key"><kbd>Enter</kbd><span class="sound">6</span></div>
     <div data-key="16" class="key"><kbd>Shift</kbd><span class="sound">7</span></div>
+    <div class="vDivider"></div>
     <div data-key="17" class="key"><kbd>Ctrl</kbd><span class="sound">8</span></div>
     <div data-key="18" class="key"><kbd>Alt</kbd><span class="sound">9</span></div>
     <div data-key="33" class="key"><kbd>Page Up</kbd><span class="sound">10</span></div>
     <div data-key="34" class="key"><kbd>Page Down</kbd><span class="sound">11</span></div>
     <div data-key="35" class="key"><kbd>End</kbd><span class="sound">12</span></div>
     <div data-key="36" class="key"><kbd>Home</kbd><span class="sound">20</span></div>
-    <div data-key="37" class="key"><kbd>Arrow Left</kbd><span class="sound">A</span></div>
-    <div data-key="38" class="key"><kbd>Arrow Up</kbd><span class="sound">B</span></div>
-    <div data-key="39" class="key"><kbd>Arrow Right</kbd><span class="sound">Basso</span></div>
-    <div data-key="40" class="key"><kbd>Arrow Down</kbd><span class="sound">begin</span></div>
+    <div data-key="37" class="key"><kbd>⬅</kbd><span class="sound">A</span></div>
+    
+    <div data-key="38" class="key"><kbd>⬆</kbd><span class="sound">B</span></div>
+    <div data-key="39" class="key"><kbd>⇨▶</kbd><span class="sound">Basso</span></div>
+    <div data-key="40" class="key"><kbd>⬇</kbd><span class="sound">begin</span></div>
     <div data-key="45" class="key"><kbd>Insert</kbd><span class="sound">bonus</span></div>
+    <div class="vDivider"></div>
     <div data-key="46" class="key"><kbd>Delete</kbd><span class="sound">boom</span></div>
     <div data-key="65" class="key"><kbd>a</kbd><span class="sound">Bottle</span></div>
     <div data-key="66" class="key"><kbd>b</kbd><span class="sound">C</span></div>
     <div data-key="67" class="key"><kbd>c</kbd><span class="sound">clap</span></div>
+  </div>
+  <div class="hDivider"></div>   <div class="hDivider"></div>  
+
+  <div class="keys box box2">
     <div data-key="68" class="key"><kbd>d</kbd><span class="sound">D</span></div>
     <div data-key="69" class="key"><kbd>e</kbd><span class="sound">die</span></div>
     <div data-key="70" class="key"><kbd>f</kbd><span class="sound">E</span></div>
     <div data-key="71" class="key"><kbd>g</kbd><span class="sound">explosion</span></div>
+    <div class="vDivider"></div>
     <div data-key="72" class="key"><kbd>h</kbd><span class="sound">F</span></div>
     <div data-key="73" class="key"><kbd>i</kbd><span class="sound">Frog</span></div>
     <div data-key="74" class="key"><kbd>j</kbd><span class="sound">Funk</span></div>
@@ -49,32 +59,39 @@
     <div data-key="80" class="key"><kbd>p</kbd><span class="sound">hihat</span></div>
     <div data-key="81" class="key"><kbd>q</kbd><span class="sound">I</span></div>
     <div data-key="82" class="key"><kbd>r</kbd><span class="sound">J</span></div>
+    <div class="vDivider"></div>
     <div data-key="83" class="key"><kbd>s</kbd><span class="sound">JAM</span></div>
     <div data-key="84" class="key"><kbd>t</kbd><span class="sound">K</span></div>
     <div data-key="85" class="key"><kbd>u</kbd><span class="sound">kick</span></div>
     <div data-key="86" class="key"><kbd>v</kbd><span class="sound">L</span></div>
+  </div>
+  <div class="hDivider"></div>   <div class="hDivider"></div>  
+  <div class="keys box box3">
     <div data-key="87" class="key"><kbd>w</kbd><span class="sound">M</span></div>
     <div data-key="88" class="key"><kbd>x</kbd><span class="sound">N</span></div>
     <div data-key="89" class="key"><kbd>y</kbd><span class="sound">O</span></div>
     <div data-key="90" class="key"><kbd>z</kbd><span class="sound">openhat</span></div>
+    <div class="vDivider"></div>
     <div data-key="189" class="key"><kbd>,</kbd><span class="sound">P</span></div>
     <div data-key="190" class="key"><kbd>.></kbd><span class="sound">point</span></div>
-    <div data-key="191" class="key"><kbd>/?</kbd><span class="sound">Q</span></div>
+    <div data-key="191" class="key"><kbd>?</kbd><span class="sound">Q</span></div>
     <div data-key="192" class="key"><kbd>`~</kbd><span class="sound">R</span></div>
-    <div data-key="219" class="key"><kbd>[{</kbd><span class="sound">ride</span></div>
-    <div data-key="220" class="key"><kbd>\|</kbd><span class="sound">S</span></div>
-    <div data-key="221" class="key"><kbd>]}</kbd><span class="sound">snare</span></div>
-    <div data-key="222" class="key"><kbd>'"</kbd><span class="sound">T</span></div>
+    <div data-key="219" class="key"><kbd>[</kbd><span class="sound">ride</span></div>
+    <div data-key="220" class="key"><kbd>\</kbd><span class="sound">S</span></div>
+    <div data-key="221" class="key"><kbd>]</kbd><span class="sound">snare</span></div>
+ 
+    <div data-key="222" class="key"><kbd>"</kbd><span class="sound">T</span></div>
     <div data-key="20" class="key"><kbd>Caps Lock</kbd><span class="sound">tink</span></div>
     <div data-key="27" class="key"><kbd>Esc</kbd><span class="sound">tom</span></div>
-    <div data-key="61" class="key"><kbd>=+</kbd><span class="sound">U</span></div>
+    <div data-key="61" class="key"><kbd>=</kbd><span class="sound">U</span></div>
+    <div class="vDivider"></div>
     <div data-key="93" class="key"><kbd>Right Click</kbd><span class="sound">V</span></div>
-    <div data-key="59" class="key"><kbd>;:</kbd><span class="sound">X</span></div>
+    <div data-key="59" class="key"><kbd>;</kbd><span class="sound">X</span></div>
     <div data-key="112" class="key"><kbd>F1</kbd><span class="sound">Y</span></div>
     <div data-key="113" class="key"><kbd>F2</kbd><span class="sound">Z</span></div>
  
   </div>
-
+</div>
   <audio data-key="8"
     SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/4.wav?raw=true">Backspace</audio>
   <audio data-key="9" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/5.wav?raw=true">Tab</audio>
@@ -118,22 +135,24 @@
   <audio data-key="88" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/N.wav?raw=true">x</audio>
   <audio data-key="89" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/O.wav?raw=true">y</audio>
   <audio data-key="90" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/openhat.wav?raw=true">z</audio>
-  <audio data-key="189" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/P.wav?raw=true">,<< /audio>
-  <audio data-key="190" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/point.wav?raw=true">.></audio>
-  <audio data-key="191" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/Q.wav?raw=true">/?</audio>
-  <audio data-key="192" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/R.wav?raw=true">`~</audio>
+  <audio data-key="189" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/P.wav?raw=true"><</audio>
+  <audio data-key="190" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/point.wav?raw=true">></audio>
+  <audio data-key="191" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/Q.wav?raw=true">?</audio>
+  <audio data-key="192" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/R.wav?raw=true">~</audio>
   <audio data-key="219" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/ride.wav?raw=true">[</audio>
   <audio data-key="220" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/S.wav?raw=true">\</audio>
   <audio data-key="221" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/snare.wav?raw=true">]</audio>
   <audio data-key="222" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/T.wav?raw=true"></audio>
   <audio data-key="20" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/tink.wav?raw=true">Caps Lock</audio>
   <audio data-key="27" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/tom.wav?raw=true">Esc</audio>
-  <audio data-key="61" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/U.wav?raw=true">=+</audio>
+  <audio data-key="61" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/U.wav?raw=true">=</audio>
   <audio data-key="93" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/V.wav?raw=true">Right Click</audio>
-  <audio data-key="59" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/X.wav?raw=true">;:</audio>
+  <audio data-key="59" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/X.wav?raw=true">;</audio>
   <audio data-key="112" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/Y.wav?raw=true">F1</audio>
   <audio data-key="113" SRC="https://github.com/mathcodes/Codepen/blob/main/assets/sounds/Z.wav?raw=true">F2</audio>
-      <script src="script.js"></script>
+      
+</div>
+<script src="script.js"></script>
 </body>
 
 </html>
